@@ -1,6 +1,6 @@
 # School-Managment-System
-##Fields:
-###Principal
-###Teachers
-###Students
-###Parents
+## Fields:
+### Principal
+### Teachers
+### Students
+### Parents
