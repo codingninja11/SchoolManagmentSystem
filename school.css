@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    background: rgb(12, 148, 172);
+    text-align: center;
+  }
+  
+  p {
+      color:black;
+      text-indent: 50px;
+      text-align: justify;
+      letter-spacing: 3px;
+      font-size:14px;
+      margin-bottom:15px;
+      margin-top:12px;
+    padding:10px;
+  }
+  
+  .content{
+  text-align:center;
+  background-color:white ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  }
+  
+  .navbar {
+    width:100%;
+      overflow: hidden;
+      background-color: #981614 ;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top:8px;
+      height: 40px;
+      padding-left: 400px;
+  }
+  
+  .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 8px 40px;
+      text-decoration: none;
+      margin-right:13px;
+      margin-left:13px;
+  }
+  
+  .dropdown {
+      float: left;
+      overflow: hidden;
+      margin-right:13px;
+      margin-left:13px;
+  }
+  
+  .dropdown .dropbtn {
+      font-size: 16px;    
+      border: none;
+      outline: none;
+      color: white;
+      padding:8px 40px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: #981614;
+      color: black;
+    cursor:pointer;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #981614;
+      min-width: 130px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 0px 0px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  
+  
+  h3{
+    font-size: 22px;
+    font-family: Serif;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  
+  img {
+      vertical-align: middle;
+      horizontal-align:middle;
+      width: 500px;
+      height: 400px;
+      padding: 0px;
+      margin: 0px;
+      object-fit:cover;
+  }
+  
+  /* Slideshow container
+    padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px; */
+  .slideshow-container {
+    text-align:center;
+    max-width:1020px;
+    position: relative;
+    margin: 0;
+    padding:0px;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  
+  h1 {
+      font-family: "Times New Roman", Times, serif;
+      color: #981614;
+      font-size: 30px;
+      margin-right: 15px;
+      display: inline-block;
+      margin-bottom: 0;
+      padding-top: 2px;
+      
+  }
+  h4{
+    font-size: 45px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  h5{
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      /*ooooo overflow: hidden;         oooo*/
+      background-color: #333;
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+ 
